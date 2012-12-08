@@ -98,7 +98,7 @@
                     {
                         //echo $jj." ".$ii."<br>";
                         //echo (26.054236 + ($jj + 41 * (int)($nHarta/10))/100)." ";
-                        $aa["markers"][$N++] = array("id" => $harta[$ii][$jj], "lat" => 44.467724 + $ii * 0.001 + (41 * 0.001 * ($nHarta%10)), "lng" => 26.054236 + $jj * 0.001 * (41 * 0.001 * ($nHarta/10)), "satisfacut" => 1);
+                        $aa["markers"][$N++] = array("id" => $harta[$ii][$jj], "lat" => 44.467724 + $ii * 0.001 + (41 * 0.001 * ($nHarta%10)), "lng" => 26.054236 + $jj * 0.001 + (41 * 0.001 * ($nHarta/10)), "satisfacut" => 1);
                     }
             }
             $nHarta++;
